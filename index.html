@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="our style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>THE kicks</title>
+  </head>
+  <body>
+    <h1 id="heading" class="face">kicks memo</h1>
+      <script>
+              const text = document.getElementById("heading");
+      
+              const colors = [//タイトルカラー指定
+                  "#00FFFF",//シアン
+                  "#00ff00",//緑
+                  "#700070"//紫
+              ];
+      
+              let index = 0;
+      
+              function changeColor() {
+                  text.style.color = colors[index];
+                  index = (index + 1) % colors.length;
+              }
+      
+              setInterval(changeColor, 10000); // 1秒ごとに変更
+          </script>
+    
+    
+    <p>
+      自分用メモ。<br>
+      いろいろ記録。
+    </p>
+
+    <h3>like</h3>
+    <ul>
+      <li>ゲーム</li>
+      <li>収集</li>
+      <li>料理・お菓子作り</li>
+      <li>車・レース観戦</li>
+    </ul>
+
+    <h3>game</h3>
+    <p>所有ハード・プラットフォーム</p>
+      <table>
+      <tr>
+        <th>任天堂</th>
+        <td>wii、switch、switch2</td>
+      </tr>
+      <tr>
+        <th>プレイステーション</th>
+        <td>PS3、PS4、PS5</td>
+      </tr>
+      <tr>
+        <th>PC</th>
+        <td>steme、Epic Games Launcher</td>
+      </tr>
+    </table>
+    <p>好きな作品・シリーズなど（プレイ済み作品）</p>
+    <table>
+      <tr>
+        <th>モンスターハンター</th>
+        <td>XX、RISE</td>
+      </tr>
+      <tr>
+        <th>ポケットモンスター</th>
+        <td>X、サン、ウルトラムーン、イーブイ、盾、シャイニングパール、<br>
+            LEGENDSアルセウス、スカーレット、LEGENDS Z-A</td>
+      </tr>
+      <tr>
+        <th>ファイナルファンタジー</th>
+        <td>X、XV、VII R、XVI</td>
+      </tr>
+      <tr>
+        <th>ホヨバース</th>
+        <td>原神、崩壊スターレイル</td>
+      </tr>
+      <tr>
+        <th>インディーゲーム系</th>
+        <td>UNDERTALE、deltarune、Vompire survivors、Rrvolution Idle</td>
+      </tr>
+    </table>
+
+    <h3>cooking</h3>
+    <p>好きな料理・よく作る料理など</p>
+    <ul>
+      <li>カレー<span class="light">(カレールーの裏通りに作れば失敗せんよ)</span></li>
+      <li>牛丼<a href="https://cookpad.com/jp/recipes/19134559">自分が使うレシピはこちら（外部サイト）</a></li>
+      <li>生姜焼き<span class="light">(玉ねぎ炒めて肉焼いて、砂糖と醤油一対一で入れて生姜はドバっと)</span></li>
+      <li>クッキー<span class="light">(クッキークリッカーなら簡単なのに現実は...)</span></li>
+
+    </ul>
+
+    <style>
+    .light {
+        color: rgba(0, 0, 0, 0.2);
+    }
+    </style>
+
+    <h3>music</h3>
+    <p>集めたCDとアーティスト名</p>
+    <table>
+      <tr>
+        <th>J Soul brothers</th>
+        <td>J soul brothers、D.T.B/chaos</td>
+      </tr>
+      <tr>
+        <th>EXILE</th>
+        <td>our style、EX-STYLE、The other side of EX Vol.1、Styles Of Beyond、<br>
+             ENTERTAINMENT、PERFECT BEST、<br>
+            EXILE EVOLUTION、EXTREME BEST、PHOENIX</td>
+      </tr>
+      <tr>
+        <th>二代目J soul brothers</th>
+        <td>J Soul brothers</td>
+      </tr>
+      <tr>
+        <th>EXILE THE SECOND</th>
+        <td>THE Ⅱ AGE、THE BEST</td>
+      </tr>
+      <tr>
+        <th>三代目J soul brothers</th>
+        <td>THE BEST、BLUE IMPACT、THE JSB WORLD、RAISE THE FLAG</td>
+      </tr>
+      <tr>
+        <th>GENERATIONS from EXILE TRIBE</th>
+        <td>GENERATIONS、SPEEDSTAR</td>
+      </tr>
+      <tr>
+        <th>EXILE TRIBE MIX</th>
+        <td>DJ KAORI × EXILE TRIBE MIX、DJ MAKIDAI EXILE TRIBE PERFECT MIX</td>
+      </tr>
+      <tr>
+        <th>m-flo</th>
+        <td>NEVEN</td>
+      </tr>
+      <tr>
+        <th>SOUL`d OUT</th>
+        <td>SOUL`d OUT、ALIVE、Single collection、ATTITUDE</td>
+      </tr>
+      <tr>
+        <th>米津玄師</th>
+        <td>BOOTLEG、STRAY SHEEP</td>
+      </tr>
+      <tr>
+        <th>BIGBANG</th>
+        <td>ALIVE</td>
+      </tr>
+      <tr>
+        <th>LMFAO</th>
+        <td>Sorry For Party Rocking</td>
+      </tr>
+      <tr>
+        <th>CRAZY FROG</th>
+        <td>CRAZY HITS</td>
+      </tr>
+    </table>
+  </body>
+</html>
